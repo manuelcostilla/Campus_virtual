@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <div className="w-full h-[1px] bg-gray-500 mt-8"></div>
       <div className="flex justify-between mt-6 mb-10">
-        <p className="text-sm">Preferencias de cookies© 2023 Riot Games, Inc. Todos los derechos reservados.</p>
+        <p className="text-sm">Preferencias de cookies© 2023 Nankurunaisa. Todos los derechos reservados.</p>
         <p>Ir al inicio <ChevronUp size="20" className=" text-sm inline mb-1" color="white" /></p>
       </div>
     </footer>

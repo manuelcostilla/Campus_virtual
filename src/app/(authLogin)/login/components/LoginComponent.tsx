@@ -38,9 +38,11 @@ const LoginComponent = () => {
             </button>
           </div>
           <div className="mt-8 flex flex-col gap-y-4">
-            <button className="active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01] ease-in-out py-3 rounded-xl bg-slate-800 text-white text-lg font-bold">
+            <Link href="./session">
+            <div className="active:scale-[.98] text-center active:duration-75 transition-all hover:scale-[1.01] ease-in-out py-3 rounded-xl bg-slate-800 text-white text-lg font-bold">
               Iniciar Sesión
-            </button>
+            </div>
+            </Link>
             <button className="flex py-3 rounded-xl border2 border-gray-100 items-center justify-center gap-2 active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01] ease-in-out">
               <svg
                 width="24"
